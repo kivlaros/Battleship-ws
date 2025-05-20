@@ -1,0 +1,25 @@
+{
+  "name": "battleship-ws",
+  "version": "1.0.0",
+  "description": "*** Please postpone the check until the end of the deadline, there was no time to start the back. Thank you in advance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@trongnd/ts-nodemon": "^1.0.3",
+    "@types/node": "^22.15.19",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0",
+    "ws": "^8.18.2"
+  }
+}
